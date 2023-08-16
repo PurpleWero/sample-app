@@ -1,0 +1,14 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Nintenfont'; /* Nombre que le asignas a la fuente */
+    src: url('../app/fonts/nintenfont.woff2') format('woff2');
+    /* Agrega más formatos si es necesario */
+    font-weight: normal;
+    font-style: normal;
+  }
+  .navbar-title {
+    flex-grow: 1;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nintenfont'; /* Aplica la fuente personalizada */
+  }

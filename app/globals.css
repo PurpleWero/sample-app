@@ -21,11 +21,29 @@
   h5 {
     font-weight: bold!important;
   }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
   
+  .navbar-title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+
   /* Media query para pantallas más pequeñas (ej. dispositivos móviles) */
   @media (max-width: 768px) {
     .amiibo-item {
       flex: 0 0 100%; /* Cambiar a una columna en pantallas más pequeñas */
     }
   }
-  
+
+  @media (max-width: 768px) {
+    .navbar-title {
+      font-size: 30px; /* Cambiar a una columna en pantallas más pequeñas */
+    }
+  }
