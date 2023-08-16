@@ -8,11 +8,16 @@
     flex: 0 0 25%; /* Columnas de cuatro en pantallas grandes */
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
   }
   
   .amiibo-image {
     display: block;
-    width: 100%; /* Establecer el ancho de la imagen al 100% del contenedor */
+    width: 60%; /* Establecer el ancho de la imagen al 100% del contenedor */
     height: auto; /* Ajustar automáticamente la altura según el ancho */
+  }
+
+  h5 {
+    font-weight: bold!important;
   }
   

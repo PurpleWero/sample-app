@@ -8,9 +8,9 @@ async function Home() {
   const amiibos = await fetchAmiibos();
 
   return (
-    <div className="amiibo-container">
+    <div className="amiibo-container m-1">
       {amiibos.amiibo.map((amiibo: any) => (
-        <div key={amiibo.head + amiibo.tail} className="amiibo-item">
+        <div key={amiibo.head + amiibo.tail} className="amiibo-item card">
           <h5>{amiibo.name}</h5>
           <img src={amiibo.image} alt="" className="amiibo-image" />
         </div>
