@@ -1,3 +1,4 @@
+/* Estilos para pantallas grandes */
 .amiibo-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,8 +17,15 @@
     width: 60%; /* Establecer el ancho de la imagen al 100% del contenedor */
     height: auto; /* Ajustar automáticamente la altura según el ancho */
   }
-
+  
   h5 {
     font-weight: bold!important;
+  }
+  
+  /* Media query para pantallas más pequeñas (ej. dispositivos móviles) */
+  @media (max-width: 768px) {
+    .amiibo-item {
+      flex: 0 0 100%; /* Cambiar a una columna en pantallas más pequeñas */
+    }
   }
   
