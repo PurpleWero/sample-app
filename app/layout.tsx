@@ -1,17 +1,7 @@
-"use client"
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Sidebar from '@/components/Sidebar'
-import { useState } from 'react'
-import "@fortawesome/fontawesome-svg-core/styles.css"; 
-
-import { config } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-// Tell Font Awesome to skip adding the CSS automatically 
-// since it's already imported above
-config.autoAddCss = false; 
 
 const inter = Inter({ subsets: ['latin'] })
 
